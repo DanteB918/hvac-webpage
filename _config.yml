@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 title: The Website
 email: your-email@example.com
+logo: <img src="./assets/hvac1.jpg alt="Logo" />
 description: >- # this means to ignore newlines until "baseurl:"
   This site is super epic.
 baseurl: "" # the subpath of your site, e.g. /blog
