@@ -5,14 +5,20 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    {% include header.html %}
-    <div class="container">
-    <h1 class="page-title" align="center">{{page.title}}</h1>
-      <div align="center">
-        {{ content }}
-      </div>
-    </div>
-    {% include footer.html %}
 
+    {% include header.html %}
+    <div class="fluid-container" style="background-color: lightgray;">
+      <h1 id="home-title">HVAC Website</h1>
+      {% include home-top.html %}
+    </div>
+      <div class="container">
+      <h1 class="page-title" align="center">{{page.title}}</h1>
+        <div align="center">
+          {{ content }}
+        </div>
+      </div>
+    <div class="fluid-container">
+      {% include footer.html %}
+    </div>
   </body>
 </html>
