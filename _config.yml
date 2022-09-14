@@ -17,23 +17,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Website
+title: Bayside Heating &amp; Air
 email: your-email@example.com
 logo: <img src="../assets/hvaclogo.png" alt="Logo" class="logo"/>
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is super epic.
+  This is an HVAC website for the company Bayside Heating & air
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-facebook_username: dantebradshaw_
-fb: https://facebook.com/dantebradshaw
+facebook_username: Bayside
+fb: https://facebook.com/baysideheatingandair
 exclude: [node_modules, gulpfile.js]
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-admin
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

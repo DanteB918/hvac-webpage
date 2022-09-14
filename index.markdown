@@ -1,5 +1,6 @@
 ---
 layout: home
+description: Home page for Bayside Heating & Air.
 ---
 
 <div class="row" style="padding-top: 20px; padding-bottom: 20px; background-color: darkgray;">
